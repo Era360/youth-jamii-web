@@ -1,0 +1,122 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.covid {
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 90px;
+}
+.backc {
+  background-color: rgba(111, 66, 153, 0.205);
+}
+.back {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+  background-color: rgba(111, 66, 153, 0.205);
+}
+.covid_content {
+  padding: 60px;
+}
+.covid_min_title {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgba(137, 43, 226, 0.459);
+}
+.covid_title {
+  padding-top: 0;
+  font-size: 39px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(103, 30, 172);
+  font-weight: 1000;
+}
+.covid_words {
+  padding: 30px 0;
+}
+.covid_btn {
+  background-color: rgb(103, 30, 172);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+.covid_second {
+  text-align: center;
+  font-size: 30px;
+  margin: 100px 0;
+}
+.covid_second_title {
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(103, 30, 172);
+}
+.covid_second_top {
+  padding-bottom: 20px;
+}
+.covid_second_words {
+  font-size: 20px;
+  color: grey;
+}
+.covid_second_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.covid_second_bottom p {
+  font-size: 15px;
+  color: grey;
+}
+.covid_second_bottom h1 {
+  font-size: 40px;
+}
+.icon {
+  color: rgb(103, 30, 172);
+}
+.video_column {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0;
+}
+.video_play {
+  position: absolute;
+  /* background-color: rgb(103, 30, 172); */
+  right: 10%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+}
+#vidbutton a {
+  /* text-decoration: none; */
+  color: rgb(124, 124, 124);
+}
+
+.video_words h1 {
+  color: rgb(103, 30, 172);
+}
+.border-line {
+  display: block;
+  width: 80%;
+  height: 3px;
+  background: #ffb330;
+  padding: 1px 0;
+  margin: 20px auto;
+}
+.divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+.underline {
+  text-decoration: none;
+}
+.underline:hover {
+  text-decoration: underline;
+}
