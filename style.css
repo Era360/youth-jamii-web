@@ -10,7 +10,7 @@ body {
   margin-bottom: 90px;
 }
 .backc {
-  background-color: rgba(111, 66, 153, 0.205);
+  background-color: rgb(255, 255, 255);
 }
 .back {
   display: flex;
@@ -51,13 +51,13 @@ body {
   margin: 100px 0;
 }
 .covid_second_title {
-  padding-bottom: 20px;
-  font-size: 30px;
+  padding-bottom: 40px;
+  font-size: 40px;
   font-weight: bold;
   color: rgb(103, 30, 172);
 }
 .covid_second_top {
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 .covid_second_words {
   font-size: 20px;
@@ -98,6 +98,19 @@ body {
 .video_words h1 {
   color: rgb(103, 30, 172);
 }
+.ppts_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 70px 0;
+}
+.protect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .border-line {
   display: block;
   width: 80%;
