@@ -9,9 +9,11 @@
 
   <!-- Vendor Css -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -28,12 +30,11 @@
         <ul>
           <li><a class="active " href="index.html">Home</a></li>
           <li><a href="http://127.0.0.1:5502">Darasa Huru</a></li>
-          <li><a href="#public"> Public Space </a></li>
-          <li><a href="#">Philantropy</a></li>
-          <li><a href="#">Networking</a></li>
-          <li>
-            <a href="#">Opportunities</a>
-          </li>
+          <li><a href="#">Youth Enlightment</a></li>
+          <li><a href="#">Nchi yangu</a></li>
+          <button>
+            Donate
+          </button>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -59,100 +60,125 @@
   </section><!-- End Hero -->
 
   <main id="main">
-    <div class="back">
-      <div class="covid_content">
-        <div class="covid_min_title">
-          <div>COVID-19 AWARENESS</div>
-        </div>
-        <div class="covid_title">Stay Safe. Stay Home.</div>
-        <div class="covid_words">
-          Clean your home regularly, particularly frequently touched
-          surfaces like, Stay physically fit. Exercise regulary. Eat a
-          nutritious diet. Don’t smoke.
-        </div>
-        <button class="covid_btn">How to prevent</button>
-      </div>
-      <img src="assets/images/causes/barakoa.jpg" width="50%" />
-    </div>
-    </d>iv
 
-    <div class="covid_second">
-      <div class="covid_second_title">Coronavirus Statistics</div>
-      <div class="covid_second_top">
-        <span class="icon">
-          <i class="fas fa-globe"></i>
-        </span>
-        <h2 class="d-inline">Totals Worldwide</h2>
+    <!-- Covid section -->
+    <section class="covid section-bg" data-aos="fade-up" data-aos-delay="50">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 p-3">
+            <img src="assets/images/causes/barakoa.jpg" class="img-fluid" />
+          </div>
 
-        <div class="covid_second_bottom">
-          <div>
-            <span class="icon">
-              <i class="fas fa-virus"></i>
-            </span>
-            <h1>268M</h1>
-            <p>ACTIVE CASES</p>
+          <div class="col-md-5 icon-box p-3">
+            <h4 class="title"><a href="">Covid-19 Awareness</a></h4>
+            <div class="sub-title">Stay Safe. Stay Home</div>
+            <!-- <i class="bx bx-book-open"></i> -->
+            <p class="description">Clean your home regularly, particularly frequently touched
+              surfaces like, Stay physically fit. Exercise regulary. Eat a
+              nutritious diet. Don’t smoke.
+            </p>
+            <!-- <button class="covid-btn">How to prevent</button> -->
           </div>
-          <div>
-            <span class="icon">
-              <i class="fas fa-virus"></i>
-            </span>
-            <h1>5.28M</h1>
-            <p>DEATHS</p>
-          </div>
-          <div>
-            <span class="icon">
-              <i class="fas fa-virus"></i>
-            </span>
-            <h1>1234</h1>
-            <p>RECOVERED CASES</p>
-          </div>
-        </div>
-      </div>
-      <img src="assets/images/tanzania.png" alt="" width="2%" />
-      <h2 class="d-inline">Totals in Tanzania</h2>
-      <div class="covid_second_bottom">
-        <div>
-          <span class="icon">
-            <i class="fas fa-virus"></i>
-          </span>
-          <h1>1367</h1>
-          <p>ACTIVE CASES</p>
-        </div>
-        <div>
-          <span class="icon">
-            <i class="fas fa-virus"></i>
-          </span>
-          <h1>50</h1>
-          <p>DEATHS</p>
-        </div>
-        <div>
-          <span class="icon">
-            <i class="fas fa-virus"></i>
-          </span>
-          <h1>1234</h1>
-          <p>RECOVERED CASES</p>
-        </div>
-      </div>
-    </div>
 
-    <div class="video_column">
-      <div style="position: relative">
-        <video src="assets/videos/proj.mp4" id="corona_vid" width="90%"></video>
-        <div class="video_play">
-          <div type="button" id="vidbutton">
-            <i class="fas fa-play fa-3x"></i>
+        </div>
+      </div>
+    </section>
+    <!-- End Covid section -->
+
+
+    <!-- Statistics Section -->
+    <section class="stats">
+      <div class="container">
+
+        <div class="main-title">
+          <i class="bx bxs-virus"></i>
+          Coronavirus Statistics
+          <i class="bx bxs-virus"></i>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 " data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box icon-box-blue">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Worldwide</a></h4>
+              <div class="row" data-aos="fade-up">
+                <div class="covids">
+                  <h5>ACTIVE CASES: </h5>
+                  <h6>268M</h6>
+                </div>
+                <div class="covids">
+                  <h5>DEATHS</h5>
+                  <h6>5.28M</h6>
+                </div>
+                <div class="covids">
+                  <h5>RECOVERED CASES</h5>
+                  <h6>1234</h6>
+                </div>
+                <p class="description"><span><a href="learn.html">View more</a></span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 " data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box icon-box-green">
+              <div class="icon"><img src="assets/images/tanzania.png" alt="" width="50%" /></div>
+              <h4 class="title"><a href="">Tanzania</a></h4>
+              <div class="row" data-aos="fade-up">
+                <div class=" covids">
+                  <h5>ACTIVE CASES: </h5>
+                  <h6>268M</h6>
+                </div>
+                <div class=" covids">
+                  <h5>DEATHS</h5>
+                  <h6>5.28M</h6>
+                </div>
+                <div class=" covids">
+                  <h5>RECOVERED CASES</h5>
+                  <h6>1234</h6>
+                </div>
+                <p class="description"><span><a href="learn.html">View more</a></span>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
-      <div class="video_words">
-        <h1>What is Coronavirus?</h1>
-        <div class="covid_words">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a,
-          nulla incidunt eaque sit praesentium porro consectetur optio!
+
+      </div>
+    </section>
+
+    <!-- End Statistics Section -->
+
+    <!-- Corona section -->
+    <section class="corona section-bg" data-aos="fade-up" data-aos-delay="200">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 video-box">
+            <img src="assets/images/explain.png" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
+              data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+
+            <div class="icon-box">
+              <h4 class="title"><a href="">What is Coronavirus?</a></h4>
+              <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a,
+                nulla incidunt eaque sit praesentium porro consectetur optio!
+              </p>
+              <div><a href="#">Learn More</a></div>
+            </div>
+
+          </div>
         </div>
-        <button class="covid_btn">Learn More</button>
+
       </div>
-    </div>
+    </section>
+    <!-- End Corona Section -->
+
 
     <div class="ppts_main">
       <div class="protect">
@@ -563,6 +589,10 @@
 
 
   <!-- Vendor js -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Main js file -->
